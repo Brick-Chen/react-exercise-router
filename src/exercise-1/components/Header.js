@@ -55,6 +55,10 @@ class Header extends Component {
           </Route>
 
           <Route exact path="/products/:id" component={Product}/>
+
+          <Route exact path="/goods" component={Products}/>
+
+          <Route exact path="*" component={HomePage}/>
         </Switch>
       </div>
       </Router>
