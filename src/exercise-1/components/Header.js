@@ -11,17 +11,17 @@ class Header extends Component {
         <div className="header">
           <div className="header-list">
           <NavLink exact to="/"
-          style={{color: 'gray', textDecoration: 'none', marginRight: '10px'}}
+          style={{color: 'gray', textDecoration: 'none', marginRight: '40px'}}
           activeStyle={{textDecoration: 'underline'}}>
             Home
             </NavLink>
           <NavLink exact to="/my-profile"
-          style={{color: 'gray', textDecoration: 'none', marginRight: '10px'}}
+          style={{color: 'gray', textDecoration: 'none', marginRight: '40px'}}
           activeStyle={{textDecoration: 'underline'}}>
             My Profile
             </NavLink>
           <NavLink exact to="/about-us"
-          style={{color: 'gray', textDecoration: 'none', marginRight: '10px'}}
+          style={{color: 'gray', textDecoration: 'none', marginRight: '40px'}}
           activeStyle={{textDecoration: 'underline'}}>
             About us
             </NavLink>
